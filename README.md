@@ -1,5 +1,9 @@
 # Snyk MCP Server
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
+[![MCP](https://img.shields.io/badge/MCP-1.0-green.svg)](https://modelcontextprotocol.io/)
+
 A Model Context Protocol (MCP) server that integrates Snyk security scanning with Claude Code and other MCP clients.
 
 ## Features
