@@ -375,8 +375,8 @@ Add to your MCP settings file:
       "command": "node",
       "args": ["/absolute/path/to/snyk-mcp-server/dist/index.js"],
       "env": {
-        "SNYK_TOKEN": "your-token-here",
-        "SNYK_ORG_ID": "your-org-id-here"
+        "SNYK_TOKEN": "your-snyk-token",
+        "SNYK_ORG_ID": "your-org-id"
       }
     }
   }
@@ -391,8 +391,8 @@ Add to your MCP settings file:
       "command": "tsx",
       "args": ["/absolute/path/to/snyk-mcp-server/src/index.ts"],
       "env": {
-        "SNYK_TOKEN": "your-token-here",
-        "SNYK_ORG_ID": "your-org-id-here"
+        "SNYK_TOKEN": "your-snyk-token",
+        "SNYK_ORG_ID": "your-org-id"
       }
     }
   }

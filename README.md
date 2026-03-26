@@ -20,7 +20,7 @@ A Model Context Protocol (MCP) server that integrates Snyk security scanning wit
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/snyk-mcp-server.git
+git clone https://github.com/ozturkaburak/snyk-mcp-server.git
 cd snyk-mcp-server
 ```
 
@@ -37,7 +37,7 @@ cp .env.example .env
 4. Configure your Snyk credentials in `.env`:
 ```env
 SNYK_TOKEN=your_snyk_token_here
-SNYK_ORG_ID=your_org_id_here
+SNYK_ORG_ID=your-org-id_here
 ```
 
 ## Usage
@@ -134,8 +134,8 @@ Add this to your Claude Code MCP settings (`.claude/mcp_settings.json`):
       "command": "node",
       "args": ["/path/to/snyk-mcp-server/dist/index.js"],
       "env": {
-        "SNYK_TOKEN": "your_token",
-        "SNYK_ORG_ID": "your_org_id"
+        "SNYK_TOKEN": "your-snyk-token",
+        "SNYK_ORG_ID": "your-org-id"
       }
     }
   }
@@ -154,7 +154,7 @@ The server uses environment variables for configuration:
 ### Getting Your Credentials
 
 1. **SNYK_TOKEN**: Get from [Snyk Account Settings](https://app.snyk.io/account)
-2. **SNYK_ORG_ID**: Find in your org settings URL: `https://app.snyk.io/org/{YOUR_ORG_ID}/manage/settings`
+2. **SNYK_ORG_ID**: Find in your org settings URL: `https://app.snyk.io/org/your-org-id/manage/settings`
 
 ## Project Structure
 
